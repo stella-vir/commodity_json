@@ -1,0 +1,404 @@
+{'lvl': {'<': [], '>': []
+    }, 'dv': {'%': [
+            {'s': 'w 1:com', 'alertType': 'markets', 'suffix': 3.0, 'modifier': '%', 'prettySubTitle': 'Rise By(%) 3', 'prettyTitle': None, 'title': 'w 1:com%3', 'tes_x': 'w 1:com', 'i': 'W 1:COM', 'b': 755.2318, 'a': 755.2318, 'da': '754.250', 'db': '753.750', 
+            'splitA': {'high': '25', 'integer': '754.', 'small': '0'
+                }, 
+                'splitB': {'high': '75', 'integer': '753.', 'small': '0'
+                }, 
+                'p': 755.2318, 'prev': 733.25, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': 21.9818, 'pch': 3.0, 'dt': 1687769200785, 'odt': 1687769200782, 'sdt': 1687769201064, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'commodity', 'dstate': 'open', 'origin_script': 'SPICE:PRICE:CALC', 'origin': 'ZW202307+IB', 'source': 'IB', 'dlow': 726.5, 'dhigh': 756.75, 'dopen': 735.8998, 'dopen_dt': '2023-06-26T00: 00: 00', 'frequency': 'intraday', 'hmm': 753.75, 'trading_settings': {'allow': False
+                }, 'unit': 'USd/Bu', 'close_week': [
+                    686.7138, '2023-06-19T00: 00: 00.000Z'
+                ], 'close_month': [
+                    617.1309, '2023-05-29T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    610.75, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    792, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    917.5, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'W 1:COM', 'tes_y': 'w 1:com', 'prevValue': 755.209, 'prevPValue': 2.99
+            }
+        ], '-%': []
+    }
+}
+
+market_bulk kafka
+jsonM: [
+    {'s': 'W 1:COM', 'i': 'W 1:COM', 'b': 755.5812, 'a': 755.5812, 'da': '755.750', 'db': '755.500', 'splitA': {'high': '75', 'integer': '755.', 'small': '0'
+        }, 'splitB': {'high': '50', 'integer': '755.', 'small': '0'
+        }, 'p': 755.5812, 'prev': 733.25, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': 22.3312, 'pch': 3.05, 'dt': 1687775238302, 'odt': 1687775238299, 'sdt': 1687775238727, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'commodity', 'dstate': 'open', 'origin_script': 'SPICE:PRICE:CALC', 'origin': 'ZW202307+IB', 'source': 'IB', 'dlow': 726.5, 'dhigh': 757.7776, 'dopen': 735.8998, 'dopen_dt': '2023-06-26T00: 00: 00', 'frequency': 'intraday', 'hmm': 755.5, 'trading_settings': {'allow': False
+        }, 'unit': 'USd/Bu', 'close_week': [
+            686.7138, '2023-06-19T00: 00: 00.000Z'
+        ], 'close_month': [
+            617.1309, '2023-05-29T00: 00: 00.000Z'
+        ], 'close_mtd': [
+            610.75, '2023-06-01T00: 00: 00.000Z'
+        ], 'close_ytd': [
+            792, '2022-12-30T00: 00: 00.000Z'
+        ], 'close_year': [
+            917.5, '2022-06-27T00: 00: 00.000Z'
+        ], 'is_active': True, 'iec_symbol': 'W 1:COM', 'tes': 'w 1:com'
+    },
+    {'s': 'SPX:IND', 'i': 'SPX:IND', 'b': 4341.22, 'a': 4341.46, 'da': '4341.460', 'db': '4341.220', 'splitA': {'high': '46', 'integer': '4341.', 'small': '0'
+        }, 'splitB': {'high': '22', 'integer': '4341.', 'small': '0'
+        }, 'p': 4341.22, 'prev': 4348.33, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -7.11, 'pch': -0.16, 'dt': 1687775238211, 'odt': 1687775238199, 'sdt': 1687775238727, 'state': 'closed', 'chart_state': 'closed', 'chart': 'closed', 'type': 'index', 'dstate': 'pre', 'origin_script': 'IB:bid:IBK', 'origin': 'ES1+IB', 'source': 'IB', 'dlow': 4340.72, 'dhigh': 4366.55, 'dopen': 4354.17, 'dopen_dt': '2023-06-23T00: 00: 00.000Z', 'frequency': 'intraday', 'trading_settings': {'allow': False
+        }, 'close_week': [
+            4388.71, '2023-06-20T00: 00: 00.000Z'
+        ], 'close_month': [
+            4205.52, '2023-05-30T00: 00: 00.000Z'
+        ], 'close_mtd': [
+            4221.02, '2023-06-01T00: 00: 00.000Z'
+        ], 'close_ytd': [
+            3839.5, '2022-12-30T00: 00: 00.000Z'
+        ], 'close_year': [
+            3900.11, '2022-06-27T00: 00: 00.000Z'
+        ], 'is_active': True, 'iec_symbol': 'SPX:IND', 'tes': 'spx:ind'
+    },
+]
+
+
+tick kafka:
+jsonM
+{'s': 'GBPCAD:CUR', 'i': 'GBPCAD:CUR', 'b': 1.67551, 'a': 1.67562, 'da': '1.67562', 'db': '1.67551', 'splitA': {'high': '56', 'integer': '1.67', 'small': '2'
+    }, 'splitB': {'high': '55', 'integer': '1.67', 'small': '1'
+    }, 'p': 1.67551, 'prev': 1.6758, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -0.00029, 'pch': -0.02, 'dt': 1687766496682, 'odt': 1687766496673, 'sdt': 1687766496803, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'currency', 'dstate': 'open', 'origin_script': 'IB:ask:IBK', 'origin': 'GBPCAD+IB', 'source': 'IB', 'dlow': 1.67303, 'dhigh': 1.67675, 'dopen': 1.6755, 'dopen_dt': '2023-06-23T00: 00: 00.000Z', 'frequency': 'intraday', 'trading_settings': {'allow': False
+    }, 'close_week': [
+        1.6896, '2023-06-19T00: 00: 00.000Z'
+    ], 'close_month': [
+        1.6784, '2023-05-29T00: 00: 00.000Z'
+    ], 'close_mtd': [
+        1.6841, '2023-06-01T00: 00: 00.000Z'
+    ], 'close_ytd': [
+        1.6371, '2022-12-30T00: 00: 00.000Z'
+    ], 'close_year': [
+        1.5793, '2022-06-27T00: 00: 00.000Z'
+    ], 'is_active': True, 'iec_symbol': 'GBPCAD:CUR', 'tes': 'gbpcad:cur'
+}
+
+
+
+results: {'lvl': {'<': [], '>': []
+    }, 'dv': {'%': [], '-%': [
+            {'s': 'ndx:ind', 'alertType': 'markets', 'suffix': 1.0, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) 1', 'prettyTitle': None, 'title': 'ndx:ind-%1', 'tes_x': 'ndx:ind', 'i': 'NDX:IND', 'b': 14736.59, 'a': 14737.09, 'da': '14737.090', 'db': '14736.590', 'splitA': {'high': '09', 'integer': '14737.', 'small': '0'
+                }, 'splitB': {'high': '59', 'integer': '14736.', 'small': '0'
+                }, 'p': 14736.59, 'prev': 14891.4824, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -154.6424, 'pch': -1.04, 'dt': 1687804111407, 'odt': 1687804111399, 'sdt': 1687804111474, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'index', 'dstate': 'open', 'origin_script': 'IB:ask:IBK', 'origin': 'NQ1+IB', 'source': 'IB', 'dlow': 14713.084, 'dhigh': 14982.8164, 'dopen': 14867.88, 'dopen_dt': '2023-06-26T13: 30: 01', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'unit': 'Index Points', 'close_week': [
+                    15070.1494, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    14354.9863, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    14441.5127, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    10939.7617, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    12008.2432, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'NDX:IND', 'tes_y': 'ndx:ind', 'prevValue': 0, 'prevPValue': 0
+            },
+            {'s': 'ndx:ind', 'alertType': 'markets', 'suffix': 0.5, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) 0.5', 'prettyTitle': 'USNDX | United States Stock Market Index (US100)', 'title': 'ndx:ind-%0,
+                5', 'tes_x': 'ndx:ind', 'i': 'NDX:IND', 'b': 14736.59, 'a': 14737.09, 'da': '14737.090', 'db': '14736.590', 'splitA': {'high': '09', 'integer': '14737.', 'small': '0'
+                }, 'splitB': {'high': '59', 'integer': '14736.', 'small': '0'
+                }, 'p': 14736.59, 'prev': 14891.4824, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -154.6424, 'pch': -1.04, 'dt': 1687804111407, 'odt': 1687804111399, 'sdt': 1687804111474, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'index', 'dstate': 'open', 'origin_script': 'IB:ask:IBK', 'origin': 'NQ1+IB', 'source': 'IB', 'dlow': 14713.084, 'dhigh': 14982.8164, 'dopen': 14867.88, 'dopen_dt': '2023-06-26T13: 30: 01', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'unit': 'Index Points', 'close_week': [
+                    15070.1494, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    14354.9863, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    14441.5127, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    10939.7617, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    12008.2432, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'NDX:IND', 'tes_y': 'ndx:ind', 'prevValue': 0, 'prevPValue': 0
+            },
+            {'s': 'ndx:ind', 'alertType': 'markets', 'suffix': 0.3, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) 0.30', 'prettyTitle': None, 'title': 'ndx:ind-%0,
+                30', 'tes_x': 'ndx:ind', 'i': 'NDX:IND', 'b': 14736.59, 'a': 14737.09, 'da': '14737.090', 'db': '14736.590', 'splitA': {'high': '09', 'integer': '14737.', 'small': '0'
+                }, 'splitB': {'high': '59', 'integer': '14736.', 'small': '0'
+                }, 'p': 14736.59, 'prev': 14891.4824, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -154.6424, 'pch': -1.04, 'dt': 1687804111407, 'odt': 1687804111399, 'sdt': 1687804111474, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'index', 'dstate': 'open', 'origin_script': 'IB:ask:IBK', 'origin': 'NQ1+IB', 'source': 'IB', 'dlow': 14713.084, 'dhigh': 14982.8164, 'dopen': 14867.88, 'dopen_dt': '2023-06-26T13: 30: 01', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'unit': 'Index Points', 'close_week': [
+                    15070.1494, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    14354.9863, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    14441.5127, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    10939.7617, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    12008.2432, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'NDX:IND', 'tes_y': 'ndx:ind', 'prevValue': 0, 'prevPValue': 0
+            }
+        ]
+    }
+}
+
+
+results: {'lvl': {'<': [], '>': []
+    }, 'dv': {'%': [], '-%': [
+            {'s': 'usdhuf:cur', 'alertType': 'markets', 'suffix': 0.1, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) .1', 'prettyTitle': None, 'title': 'usdhuf:cur-%,
+                1', 'tes_x': 'usdhuf:cur', 'i': 'USDHUF:CUR', 'b': 338.3, 'a': 338.456, 'da': '338.456', 'db': '338.300', 'splitA': {'high': '45', 'integer': '338.', 'small': '6'
+                }, 'splitB': {'high': '30', 'integer': '338.', 'small': '0'
+                }, 'p': 338.3, 'prev': 339.41, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -1.11, 'pch': -0.33, 'dt': 1687804112327, 'odt': 1687804112312, 'sdt': 1687804112475, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'currency', 'dstate': 'open', 'origin_script': 'IB:bid:IBK', 'origin': 'USDHUF+IB', 'source': 'IB', 'dlow': 337.48, 'dhigh': 339.92, 'dopen': 336.82, 'dopen_dt': '2023-06-23T00: 00: 00.000Z', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'unit': None, 'close_week': [
+                    341.73, '2023-06-19T00: 00: 00.000Z'
+                ], 'close_month': [
+                    346.71, '2023-05-29T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    344.14, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    373.18, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    379.73, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'USDHUF:CUR', 'tes_y': 'usdhuf:cur', 'prevValue': 0.0, 'prevPValue': 0.0
+            },
+            {'s': 'indu:ind', 'alertType': 'markets', 'suffix': 0.1, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) 0.10', 'prettyTitle': None, 'title': 'indu:ind-%0,
+                10', 'tes_x': 'indu:ind', 'i': 'INDU:IND', 'b': 33672.93, 'a': 33674.91, 'da': '33674.910', 'db': '33672.930', 'splitA': {'high': '91', 'integer': '33674.', 'small': '0'
+                }, 'splitB': {'high': '93', 'integer': '33672.', 'small': '0'
+                }, 'p': 33672.93, 'prev': 33727.43, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -54.5, 'pch': -0.16, 'dt': 1687804112419, 'odt': 1687804112401, 'sdt': 1687804112474, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'index', 'dstate': 'open', 'origin_script': 'IB:ask:IBK', 'origin': 'YM1+IB', 'source': 'IB', 'dlow': 33610.32, 'dhigh': 33799.8, 'dopen': 33661.03, 'dopen_dt': '2023-06-26T13: 30: 01', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'unit': 'Index Points', 'close_week': [
+                    34053.87, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    33042.78, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    33061.57, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    33147.25, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    31438.26, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'INDU:IND', 'tes_y': 'indu:ind', 'prevValue': 0.0, 'prevPValue': 0.0
+            }
+        ]
+    }
+}
+
+
+results: {'lvl': {'<': [], '>': []
+    }, 'dv': {'%': [
+            {'s': 'cat:us', 'alertType': 'markets', 'suffix': 0.19, 'modifier': '%', 'prettySubTitle': 'Rise By(%) 0.19', 'prettyTitle': None, 'title': 'cat:us%0,
+                19', 'tes_x': 'cat:us', 'i': 'CAT:US', 'b': 237.07, 'a': 237.07, 'da': '237.07', 'db': '237.07', 'splitA': {'high': '07', 'integer': '237.', 'small': ''
+                }, 'splitB': {'high': '07', 'integer': '237.', 'small': ''
+                }, 'p': 237.07, 'prev': 234.44, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': 2.63, 'pch': 1.12, 'dt': 1687804111109, 'odt': 1687804110003, 'sdt': 1687804111478, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'stocks', 'dstate': 'open', 'origin_script': 'AT:LAST:AT-Q-KAFKA', 'origin': 'CAT+AT', 'source': 'AT', 'dlow': 235.125, 'dhigh': 239.6225, 'dopen': 235.98, 'dopen_dt': '2023-06-26T13: 30: 08', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'close_week': [
+                    241.15, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    209.9, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    209.07, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    239.56, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    187.59, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'CAT:US', 'tes_y': 'cat:us', 'prevValue': 0, 'prevPValue': 0, 'unit': 'USD'
+            }
+        ], '-%': [
+            {'s': 'tsla:us', 'alertType': 'markets', 'suffix': 4.0, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) 4', 'prettyTitle': None, 'title': 'tsla:us-%4', 'tes_x': 'tsla:us', 'i': 'TSLA:US', 'b': 245.21, 'a': 245.21, 'da': '245.21', 'db': '245.21', 'splitA': {'high': '21', 'integer': '245.', 'small': ''
+                }, 'splitB': {'high': '21', 'integer': '245.', 'small': ''
+                }, 'p': 245.21, 'prev': 256.6, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -11.39, 'pch': -4.44, 'dt': 1687804111137, 'odt': 1687804111130, 'sdt': 1687804111477, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'stocks', 'dstate': 'open', 'origin_script': 'IB:last:IBK', 'origin': 'TSLA+IB', 'source': 'IB', 'dlow': 242.65, 'dhigh': 258.37, 'dopen': 250.02, 'dopen_dt': '2023-06-26T13: 30: 01', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'close_week': [
+                    274.45, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    201.16, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    207.52, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    123.18, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    244.92, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'TSLA:US', 'tes_y': 'tsla:us', 'prevValue': 0, 'prevPValue': 0, 'unit': 'USD'
+            },
+            {'s': 'tsla:us', 'alertType': 'markets', 'suffix': 3.0, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) 3', 'prettyTitle': None, 'title': 'tsla:us-%3', 'tes_x': 'tsla:us', 'i': 'TSLA:US', 'b': 245.21, 'a': 245.21, 'da': '245.21', 'db': '245.21', 'splitA': {'high': '21', 'integer': '245.', 'small': ''
+                }, 'splitB': {'high': '21', 'integer': '245.', 'small': ''
+                }, 'p': 245.21, 'prev': 256.6, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -11.39, 'pch': -4.44, 'dt': 1687804111137, 'odt': 1687804111130, 'sdt': 1687804111477, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'stocks', 'dstate': 'open', 'origin_script': 'IB:last:IBK', 'origin': 'TSLA+IB', 'source': 'IB', 'dlow': 242.65, 'dhigh': 258.37, 'dopen': 250.02, 'dopen_dt': '2023-06-26T13: 30: 01', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'close_week': [
+                    274.45, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    201.16, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    207.52, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    123.18, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    244.92, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'TSLA:US', 'tes_y': 'tsla:us', 'prevValue': 0, 'prevPValue': 0, 'unit': 'USD'
+            },
+            {'s': 'tsla:us', 'alertType': 'markets', 'suffix': 0.19, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) 0.19', 'prettyTitle': None, 'title': 'tsla:us-%0,
+                19', 'tes_x': 'tsla:us', 'i': 'TSLA:US', 'b': 245.21, 'a': 245.21, 'da': '245.21', 'db': '245.21', 'splitA': {'high': '21', 'integer': '245.', 'small': ''
+                }, 'splitB': {'high': '21', 'integer': '245.', 'small': ''
+                }, 'p': 245.21, 'prev': 256.6, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -11.39, 'pch': -4.44, 'dt': 1687804111137, 'odt': 1687804111130, 'sdt': 1687804111477, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'stocks', 'dstate': 'open', 'origin_script': 'IB:last:IBK', 'origin': 'TSLA+IB', 'source': 'IB', 'dlow': 242.65, 'dhigh': 258.37, 'dopen': 250.02, 'dopen_dt': '2023-06-26T13: 30: 01', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'close_week': [
+                    274.45, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    201.16, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    207.52, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    123.18, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    244.92, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'TSLA:US', 'tes_y': 'tsla:us', 'prevValue': 0, 'prevPValue': 0, 'unit': 'USD'
+            },
+            {'s': 'nflx:us', 'alertType': 'markets', 'suffix': 0.19, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) 0.19', 'prettyTitle': None, 'title': 'nflx:us-%0,
+                19', 'tes_x': 'nflx:us', 'i': 'NFLX:US', 'b': 417.76, 'a': 417.76, 'da': '417.76', 'db': '417.76', 'splitA': {'high': '76', 'integer': '417.', 'small': ''
+                }, 'splitB': {'high': '76', 'integer': '417.', 'small': ''
+                }, 'p': 417.76, 'prev': 424.02, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -6.26, 'pch': -1.48, 'dt': 1687804111386, 'odt': 1687804111379, 'sdt': 1687804111477, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'stocks', 'dstate': 'open', 'origin_script': 'IB:last:IBK', 'origin': 'NFLX+IB', 'source': 'IB', 'dlow': 414.9, 'dhigh': 430.9599, 'dopen': 421.29, 'dopen_dt': '2023-06-26T13: 30: 07', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'close_week': [
+                    434.7, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    392.98, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    403.13, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    294.88, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    189.14, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'NFLX:US', 'tes_y': 'nflx:us', 'prevValue': 0, 'prevPValue': 0, 'unit': 'USD'
+            }
+        ]
+    }
+}
+
+
+market_bulk results:
+Sending to redis > pyAlerter: {'lvl': {'<': [], '>': []
+    }, 'dv': {'%': [
+            {'s': 'w 1:com', 'alertType': 'markets', 'suffix': 3.0, 'modifier': '%', 'prettySubTitle': 'Rise By(%) 3', 'prettyTitle': None, 'title': 'w 1:com%3', 'tes_x': 'w 1:com', 'i': 'W 1:COM', 'b': 755.2318, 'a': 755.2318, 'da': '754.250', 'db': '753.750', 'splitA': {'high': '25', 'integer': '754.', 'small': '0'
+                }, 'splitB': {'high': '75', 'integer': '753.', 'small': '0'
+                }, 'p': 755.2318, 'prev': 733.25, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': 21.9818, 'pch': 3.0, 'dt': 1687769200785, 'odt': 1687769200782, 'sdt': 1687769201064, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'commodity', 'dstate': 'open', 'origin_script': 'SPICE:PRICE:CALC', 'origin': 'ZW202307+IB', 'source': 'IB', 'dlow': 726.5, 'dhigh': 756.75, 'dopen': 735.8998, 'dopen_dt': '2023-06-26T00: 00: 00', 'frequency': 'intraday', 'hmm': 753.75, 'trading_settings': {'allow': False
+                }, 'unit': 'USd/Bu', 'close_week': [
+                    686.7138, '2023-06-19T00: 00: 00.000Z'
+                ], 'close_month': [
+                    617.1309, '2023-05-29T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    610.75, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    792, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    917.5, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'W 1:COM', 'tes_y': 'w 1:com', 'prevValue': 755.209, 'prevPValue': 2.99
+            }
+        ], '-%': []
+    }
+}
+
+tick results: {'lvl': {'<': [], '>': []
+    }, 'dv': {'%': [
+            {'s': 'eurcny:cur', 'alertType': 'markets', 'suffix': 1.0, 'modifier': '%', 'prettySubTitle': 'Rise By(%) 1', 'prettyTitle': 'EURCNY Euro Chinese Yuan', 'title': 'eurcny:cur%1', 'tes_x': 'eurcny:cur', 'i': 'EURCNY:CUR', 'b': 7.90474, 'a': 7.90504, 'da': '7.90504', 'db': '7.90474', 'splitA': {'high': '50', 'integer': '7.90', 'small': '4'
+                }, 'splitB': {'high': '47', 'integer': '7.90', 'small': '4'
+                }, 'p': 7.90474, 'prev': 7.8135, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': 0.09124, 'pch': 1.17, 'dt': 1687804111830, 'odt': 1687804111813, 'sdt': 1687804112474, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'currency', 'dstate': 'open', 'origin_script': 'IB:bid:IBK', 'origin': 'EURCNH+IB', 'source': 'IB', 'dlow': 7.8149, 'dhigh': 7.90538, 'dopen': 7.8616, 'dopen_dt': '2023-06-23T00: 00: 00.000Z', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'unit': None, 'close_week': [
+                    7.8202, '2023-06-19T00: 00: 00.000Z'
+                ], 'close_month': [
+                    7.5756, '2023-05-29T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    7.6223, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    7.3574, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    7.0975, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'EURCNY:CUR', 'tes_y': 'eurcny:cur', 'prevValue': 0.0, 'prevPValue': 0.0, 'hmm': None
+            }
+        ], '-%': [
+            {'s': 'spx:ind', 'alertType': 'markets', 'suffix': 0.01, 'modifier': '-%', 'prettySubTitle': 'Fall By(%) 0.01', 'prettyTitle': 'US500 | United States Stock Market Index (US500)', 'title': 'spx:ind-%0,
+                01', 'tes_x': 'spx:ind', 'i': 'SPX:IND', 'b': 4333.79, 'a': 4334.04, 'da': '4334.040', 'db': '4333.790', 'splitA': {'high': '04', 'integer': '4334.', 'small': '0'
+                }, 'splitB': {'high': '79', 'integer': '4333.', 'small': '0'
+                }, 'p': 4333.79, 'prev': 4348.33, 'prev_date': '2023-06-23T00: 00: 00.000Z', 'nch': -14.54, 'pch': -0.33, 'dt': 1687804112226, 'odt': 1687804112206, 'sdt': 1687804112474, 'state': 'open', 'chart_state': 'open', 'chart': 'open', 'type': 'index', 'dstate': 'open', 'origin_script': 'IB:bid:IBK', 'origin': 'ES1+IB', 'source': 'IB', 'dlow': 4332.55, 'dhigh': 4362.06, 'dopen': 4341.46, 'dopen_dt': '2023-06-26T13: 30: 01', 'frequency': 'intraday', 'trading_settings': {'allow': False
+                }, 'unit': 'Index Points', 'close_week': [
+                    4388.71, '2023-06-20T00: 00: 00.000Z'
+                ], 'close_month': [
+                    4205.52, '2023-05-30T00: 00: 00.000Z'
+                ], 'close_mtd': [
+                    4221.02, '2023-06-01T00: 00: 00.000Z'
+                ], 'close_ytd': [
+                    3839.5, '2022-12-30T00: 00: 00.000Z'
+                ], 'close_year': [
+                    3900.11, '2022-06-27T00: 00: 00.000Z'
+                ], 'is_active': True, 'iec_symbol': 'SPX:IND', 'tes_y': 'spx:ind', 'prevValue': 0.0, 'prevPValue': 0.0, 'hmm': None
+            }
+        ]
+    }
+}
+
+handleThresholds({
+    "body": "<strong>Natural gas is down by -6.01%, according to trading on a contract for difference (CFD) that tracks this financial market.</strong> <a href=\"https://tradingeconomics.com/commodity/natural-gas?utm_source=alerts&utm_medium=email&utm_campaign=alerts_more_button&utm_content=%2Fcommodity%2Fnatural-gas\" style=\"padding-left: 0.3rem\">More</a><br><br>",
+    "subject": "Natural gas is down by 6.01%",
+    "signal": {
+        "origin": "NGM3+IB",
+        "dopen": 2.413,
+        "suffix": 5,
+        "close_year": [
+            8.88,
+            "2022-05-26T00:00:00.000Z"
+        ],
+        "odt": 1685051842211,
+        "dstate": "open",
+        "trading_settings": {
+            "allow": false
+        },
+        "close_week": [
+            2.592,
+            "2023-05-18T00:00:00.000Z"
+        ],
+        "frequency": "intraday",
+        "prettyTitle": "Natural gas",
+        "close_mtd": [
+            2.318,
+            "2023-05-01T00:00:00.000Z"
+        ],
+        "unit": "USD/MMBtu",
+        "alertType": "markets",
+        "title": "ng1:com-%5",
+        "close_month": [
+            2.305,
+            "2023-04-26T00:00:00.000Z"
+        ],
+        "dopen_dt": "2023-05-25T00:00:00.000Z",
+        "pch": -6.01,
+        "prev_date": "2023-05-24T00:00:00.000Z",
+        "source": "pyAlerter",
+        "prettySubTitle": "Fall By(%) 5",
+        "dhigh": 2.441,
+        "prev": 2.398,
+        "type": "pyAlerts",
+        "dlow": 2.254,
+        "sdt": 1685051843188,
+        "state": "open",
+        "is_active": true,
+        "db": 2.255,
+        "chart": "open",
+        "da": 2.255,
+        "nch": -0.144,
+        "hmm": 2.255,
+        "iec_symbol": "NG1:COM",
+        "splitB": {
+            "high": "25",
+            "integer": "2.",
+            "small": "5"
+        },
+        "splitA": {
+            "high": "25",
+            "integer": "2.",
+            "small": "5"
+        },
+        "close_ytd": [
+            4.104,
+            "2022-12-30T00:00:00.000Z"
+        ],
+        "dt": 1685051842214,
+        "prevPValue": -4.14,
+        "prevValue": 2.2988,
+        "a": 2.254,
+        "b": 2.254,
+        "i": "NG1:COM",
+        "chart_state": "open",
+        "origin_script": "SPICE:PRICE:CALC",
+        "p": 2.254,
+        "s": "ng1:com",
+        "tes_x": "ng1:com",
+        "tes_y": "ng1:com",
+        "modifier": "-%",
+        "symbol": "ng1:com",
+        "recDate": "2023-05-25T21:57:26.294Z",
+        "_id": "646fd9c65beec642d6ed3c61",
+        "URL": "/commodity/natural-gas",
+        "filterTitle": "ng1:com:ng1:com-%5",
+        "shortURL": "/commodity/natural-gas"
+    }
+})
